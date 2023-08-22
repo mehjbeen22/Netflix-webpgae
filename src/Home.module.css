@@ -1,0 +1,127 @@
+input[type="email"]::placeholder {
+  font-size: 18px;
+  color: white;
+}
+
+.netflixNavbar {
+  background-image: url(./image/nav-bgc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: block;
+  height: 100vh;
+  border-bottom: 10px solid  #525252;
+  filter: grayscale(20%);
+}
+
+.header {
+  height: 5rem;
+  /* border: solid white; */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#netflixLogo {
+  margin: 1rem;
+  height: 2.8rem;
+  width: 15%;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: #fff; */
+  height: 4rem;
+  width: 20%;
+}
+.selectBlock {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+  height: 2.5rem;
+}
+.wlogo {
+  height: 25px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#selectLang {
+  background-color: transparent;
+  color: white;
+  padding: 4px;
+  width: 78%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  margin-inline: 3px;
+}
+
+#signIn {
+  background-color: red;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 30%;
+  height: 2.5rem;
+}
+
+#signIn:hover {
+  background-color: #e50914;
+}
+
+.mainContent {
+  height: 80vh;
+  width: 100%;
+}
+
+.contentInside {
+  /* border: solid wheat; */
+  height: 60vh;
+  width: 70%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputCase {
+  margin-block: 1.5rem;
+  /* border: solid white; */
+  width: 70%;
+  height: 3.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputBox {
+  width: 75%;
+  padding-left: 10px;
+  border: 2px solid white;
+  outline: none;
+  color: white;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.submitButton {
+  width: 23%;
+  font-size: 1.2rem;
+  background-color: red;
+  border: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+}
+
+.submitButton:hover {
+  background-color: #e50914;
+}

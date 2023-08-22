@@ -1,0 +1,63 @@
+.mainSection {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color:  black;
+}
+
+.childSection {
+  /* border: dashed red; */
+  height: 70vh;
+  padding: 2rem;
+  width: 90%;
+}
+
+.listCaseHolder {
+  /* border: solid palevioletred; */
+  display: flex;
+  justify-content: space-around;
+  height: 60vh;
+}
+
+.listCase {
+  /* border: dotted greenyellow; */
+  color: gray;
+  width: 40%;
+ height: 50vh;
+  list-style: none;
+  padding: 1rem;
+  line-height: 2.3rem;
+}
+
+li {
+  text-decoration: underline;
+}
+.selectBlock {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  margin-top: 4rem;
+  border: 1px solid white;
+  width: 38%;
+  border-radius: 5px;
+  height: 2.5rem;
+}
+.wlogo {
+  height: 25px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+#selectLang {
+  background-color: transparent;
+  color: white;
+  padding: 4px;
+  width: 78%;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  margin-inline: 3px;
+}

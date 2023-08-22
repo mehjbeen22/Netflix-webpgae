@@ -1,0 +1,21 @@
+.mainHolder{
+    border-bottom: 10px solid  #525252;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color:  black;
+}
+
+.Picture{
+    height: 60vh;
+    width: 35%;
+}
+
+.contentCase{
+    height: 50vh;
+    width: 40%;
+    padding-left: 4rem;
+    padding-block: 1.5rem;
+}

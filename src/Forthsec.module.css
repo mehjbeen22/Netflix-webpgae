@@ -1,0 +1,22 @@
+.mainCantainer {
+  border-bottom: 10px solid  #525252;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-size: 25rem;
+  background-color: #0a0a0a;
+}
+
+.childCase {
+  /* border: solid white; */
+  height: 50vh;
+  width: 40%;
+  margin-right: 2rem;
+}
+
+.video2 {
+  height: 15rem;
+ 
+}

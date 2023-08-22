@@ -1,0 +1,75 @@
+
+
+.container {
+  border-bottom: 10px solid #525252;
+  background-color: black;
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.QCase {
+  /* border: solid red; */
+  height: 75vh;
+  width: 80%;
+}
+
+.questionblock {
+  background-color: #2d2d2d;
+  color: white;
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  margin-left: 4rem;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.questionblock:hover {
+  background-color: #525252;
+}
+.ptag {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 5px;
+}
+.PlusIconImage {
+  height: 3rem;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.inputCase {
+  /* border: solid white; */
+  width: 40%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputBox {
+  width: 75%;
+  padding-left: 10px;
+  border: 2px solid #525252;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.submitButton {
+  width: 40%;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  background-color: red;
+  border: none;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+.submitButton:hover {
+  background-color: #e50914;
+}

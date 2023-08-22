@@ -1,0 +1,41 @@
+.container{
+    border-bottom: 10px solid #525252;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #0a0a0a;
+  
+}
+
+
+.Content{
+    /* border: solid; */
+    height: 50vh;
+    width: 40%;
+    padding-left: 4rem;
+    padding-block: 3rem;
+}
+
+
+.videoBgImage {
+    background-image: url(./image/tv.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 60vh;
+    width: 40%;
+    overflow: hidden;
+  }
+  
+  .video {
+    position: absolute;
+    margin: 4rem;
+    width: 72%;
+    height: 15rem;
+    object-fit: cover; 
+    border: 2px solid #94a3b8;
+}
+
